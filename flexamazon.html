@@ -11,15 +11,15 @@
             margin: 0;
             padding: 0;
         }
-        header{
-            background-color: rgb(28, 19, 51);
-        }
+    
         .container{
-        width: 1500px;
+        width: 100%;
         margin: 0 auto;
+        background-color: rgb(28, 19, 51);
         }
         .b{
-            font-size: 25px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
             color: white;
         }
         .row{
@@ -36,12 +36,37 @@
             display: inline-block;
             justify-content: space-between;
             color: white;
+
         }
         ul li a{
             color: white;
             margin: 0 20px;
-            font-size: 25px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            text-decoration: none;
         }
+        .padding{
+            padding: 10px;
+            width: 400px;
+            border: solid 7px orange;
+        }
+        .img{
+            display: block;
+            margin: 0 auto;
+        }
+        .container2{
+            width: 100%;
+            background-color: darkslategray;
+        }
+        .e ul li{
+            display: inline-block;
+            margin: 0 8px;
+            color: white;
+            font-size: 16px;
+            line-height: 40px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    
     </style>
 </head>
 <body>
@@ -57,19 +82,44 @@
         <div class="b">
             <form>
                 <label>Electronics</label>
-                <input type="text" placeholder="Search Amazon.in">
-                <i class="fa-solid fa-magnifying-glass"></i>
+                <input class="padding" type="text" placeholder="Search Amazon.in">
+                <i class="fa-solid fa-magnifying-glass" ></i>
+                
             </form>
         </div>
+        <div><img class="img" src="amazon/flag.webp" height="20px" width="20px" ></div>
         <div class="c">
             <ul type="none">
-                <li><a href="#"><i class="fa-brands fa-font-awesome"></i>EN</a></li>
+                <li><a href="#">EN</a></li>
                 <li><a href="#">Hello,sign in account & lists</a></li>
                 <li><a href="#">returns & orders</a></li>
-                <li><i class="fa-solid fa-cart-shopping"></i></li>
+                <li><i class="fa-solid fa-cart-shopping">cart</i></li>
             </ul>
         </div>
         </div>
+    </div>
+    <div class="container2">
+        <div class="e">
+        <ul>
+            <li><i class="fa-solid fa-bars"></i>All</li>
+            <li>Amazon miniTV</li>
+            <li>Best Sellers</li>
+            <li>Mobiles</li>
+            <li>Customer Services</li>
+            <li>Today's Deals</li>
+            <li>Electronics</li>
+            <li>Prime</li>
+            <li>Amazon pay</li>
+            <li>Fashion</li>
+            <li>New Relases</li>
+            <li>Home & Kitchen</li>
+            <li>Beauty & Personal cares</li>
+            <li>Computers</li>
+            <li>Books</li>
+            <li>Coupons</li>
+
+        </ul>
+    </div>
     </div>
     </header>
 </body>
