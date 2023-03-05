@@ -1,0 +1,84 @@
+27grid.html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            display: grid;
+            background-color: cornflowerblue;
+            /* height: 600px; */
+            border: 1px solid;
+            row-gap: 10px;
+            column-gap: 10px;
+            /* grid-template-rows: 150px 150px 150px 150px;
+            grid-template-columns: 150px 150px 150px 150px; */
+            grid-template-rows: 100px 1fr 1fr 100px;
+            grid-template-columns: 1fr 1fr 1fr;
+            /* grid-template-rows: repeat(3, 1fr);
+            grid-template-columns: repeat(3, 1fr); */
+        }
+
+        .items {
+            /* width: 150px;
+            height: 150px; */
+            /* margin: 10px; */
+            background-color: darkgoldenrod;
+        }
+
+        #header {
+            grid-column-start: 1;
+            grid-column-end: 4;
+            font-size: 50px;
+            color: white;
+            text-align: center;
+            
+        }
+        #item2{
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+        #item3{
+            grid-column-start: 2;
+            grid-column-end: 4;
+            
+        }
+        #footer{
+            font-size: 50px;
+            color: white;
+            text-align: center;
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box">
+        <div class="items" id="header">header</div>
+        <div class="items" id="item2">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet sint nobis, qui tempore dicta dolore itaque repudiandae est sit obcaecati quidem iste illo vel, doloremque id ullam non adipisci voluptatem.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit error sint dolores praesentium neque? Esse magni quibusdam omnis quis assumenda consectetur dolore. Quae ex tempora atque explicabo soluta corrupti dolorum rem rerum voluptates fugiat obcaecati praesentium, iusto similique necessitatibus at expedita provident, itaque perferendis autem id nihil, corporis deleniti ipsum ipsa! Praesentium voluptatem eum voluptatum possimus numquam eaque aspernatur et, magnam molestiae tempora, maiores dolorem pariatur, nesciunt natus necessitatibus eveniet assumenda debitis. Hic libero laborum accusantium quae! Harum, magni quisquam amet atque, nemo repellat voluptatibus hic veritatis beatae blanditiis delectus ratione culpa facilis deleniti numquam! possimus, velit, dicta id iure aliquam recusandae sapiente adipisci praesentium vitae! Suscipit, fuga! Dicta provident aliquam ullam facere explicabo! Autem vel tenetur, iste explicabo id voluptatem quidem perferendis deserunt magni. Praesentium iste omnis quidem velit officiis vel eveniet accusamus illum repellat corrupti animi ex inventore, nihil magnam veritatis et. Corporis sit et eaque rem a velit, culpa eveniet, totam earum temporibus asperiores ab minus nihil tempore. Vel ex ipsam fugit consequuntur quo molestias expedita possimus aspernatur tempore qui dolores error obcaecati excepturi accusamus eligendi, voluptatum alias sint sunt libero illum! Blanditiis perferendis perspiciatis et doloremque sequi pariatur optio recusandae ullam eius voluptate harum suscipit autem alias ratione, provident corporis tempora, dignissimos totam consequatur nisi ipsa delectus magnam obcaecati id! Necessitatibus laborum earum inventore aut repellendus veniam soluta odit voluptates, accusantium repudiandae impedit architecto perferendis aspernatur ullam doloremque recusandae provident temporibus, vel cumque voluptatum nemo magni doloribus iure. Odio, officiis nemo. Minus, harum distinctio rerum impedit dignissimos eaque aliquid perferendis repellat totam cum velit tempora cupiditate ab, qui facilis obcaecati repellendus, praesentium soluta nemo? Aliquid obcaecati incidunt amet tempora molestias ipsam quos est a voluptates ad eos id eius, fugiat reiciendis sed voluptatum corporis voluptatibus pariatur repellat doloremque ducimus deserunt neque. Est culpa quisquam dolore, perferendis laudantium voluptas itaque, perspiciatis delectus obcaecati, distinctio asperiores blanditiis? Architecto eius quae incidunt eum labore dignissimos a! Quas ipsum tempore sit placeat officia! Pariatur culpa odit laborum sunt voluptatibus et iure facere veritatis suscipit quibusdam, ratione ea recusandae tempore quis cum voluptas quidem unde, eius modi! Cumque, natus perferendis. Quibusdam dicta vero architecto provident molestias saepe voluptate eligendi veritatis! Totam, repellat tempora! Cupiditate atque quae hic praesentium quia dolores quos accusamus rerum perferendis aperiam nostrum, ad natus expedita eius vitae recusandae? Quasi, porro neque quae aperiam, impedit quidem quis praesentium autem eligendi ullam ut, qui iste! Ducimus earum, exercitationem cum expedita quae praesentium! Officiis, possimus, accusamus consequatur est quae eius corrupti ab sunt, accusantium veritatis eveniet deleniti. Ipsum itaque aliquid cum natus facere quis epellat commodi iure facere mollitia et a laborum vel amet tempora quia quidem beatae. Obcaecati incidunt nemo eos atque assumenda, eius quasi provident possimus iste rerum unde perferendis, beatae distinctio totam ducimus deserunt reiciendis adipisci, tempore odit ratione! Commodi rem animi ratione explicabo, mollitia ipsum?
+            </p>
+        </div>
+        <div class="items" id="item3"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items" id="footer">footer</div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+    </div>
+
+
+</body>
+
+</html>
