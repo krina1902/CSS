@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        background-color:white;
+        display: grid;
+grid-template-rows: 300px 350px 350px 320px 280px 250px;
+grid-template-columns: 450px 450px 450px 450px 450px 450px;
+row-gap: 20px;
+column-gap: 20px;
+
+    }
+    .box{
+        /* height: 150px;
+        width: 150px;
+        margin: 10px;  */
+        background-color: aliceblue;
+    }
+    #p1{
+        grid-column-start: 1;
+        grid-column-end: 2; 
+    }
+    #p2{
+        grid-row-start: 1;
+        grid-row-end: 3;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    #p3{
+        grid-row-start: 1;
+        grid-row-end: 3;
+        grid-column-start: 3 ;
+        grid-column-end: 4;    
+        }
+    #p4{
+        grid-row-start: 2;
+        grid-row-end: 4;
+    } 
+    #p5{
+        grid-row-start: 3;
+        grid-row-end: 5;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }  
+    #p6{
+        grid-row-start: 3;
+        grid-row-end: 5;
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }    
+</style>
+<body>
+    <div class="container">
+        <div class="box" id="p1"><img src="grid/1.jpeg" height="300px" width="450px"></div>
+        <div class="box" id="p2"><img src="grid/2.webp" height="680px" width="450px"></div>
+        <div class="box" id="p3"><img src="grid/3.jpeg" height="680px" width="450px"></div>
+        <div class="box" id="p4"><img src="grid/4.jpeg" height="700px" width="450px"></div>
+        <div class="box" id="p5"><img src="grid/5.jpeg" height="700px" width="450px"></div>
+        <div class="box" id="p6"><img src="grid/6.webp" height="680px" width="450px"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+
+    </div>
+</body>
+</html>
