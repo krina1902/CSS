@@ -8,13 +8,13 @@
 </head>
 <style>
     .container{
-        background-color: coral;
+        background-color:white;
         display: grid;
         border: 1px solid;
         height: 1000px;
-        grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-columns: 1fr 1fr 700px ; 
         /* grid-template-columns: 150px 150px 150px; */
-        grid-template-rows: 100px 1fr 1fr;
+        grid-template-rows: 100px 100px 300px 300px 100px;
         column-gap: 20px; 
         /* grid-template-rows: 150px 150px 150px 150px; */
         row-gap: 20px; 
@@ -31,28 +31,63 @@
         grid-column-start: 1;
         grid-column-end: 6;
         font-size: 50px;
-        color: white;
         text-align: center;
+        background-color: aquamarine;
+    }
+    #nav{
+        grid-column-start: 1;
+        grid-column-end: 6;
+        font-size: 50px;
+        text-align: center;
+        background-color: hotpink;
     }
     #section{
-        grid-row-end: 4;
-        grid-row-start: 2;
+        grid-column-start: 1;
+        grid-column-end: 3;
         font-size: 50px;
-        color: white;
         text-align: center;
-    }
+        background-color: chartreuse;
+        }
+     #aside{
+        grid-column-start: 3;
+        grid-column-end: 6;
+        grid-row-start: 3;
+        grid-row-end: 5 ;
+        font-size: 50px;
+        text-align: center;
+        background-color: khaki;
+    } 
+    #article{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        font-size: 50px;
+        text-align: center;
+        background-color: cadetblue;
+        }
+        #footer{
+            grid-column-start: 1;
+        grid-column-end: 6;
+        font-size: 50px;
+        text-align: center;
+        background-color: aquamarine;
+        }
 </style>
 
 <body>
     <div class="container">
         <div class="box" id="header">HEADER</div>
+        <div class="box" id="nav">NAV</div>
         <div class="box" id="section">SECTION</div>
+        <div class="box" id="aside">ASIDE</div>
+        <div class="box" id="article">ARTICLE</div>
+        <div class="box" id="footer">FOOTER</div>
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
+
         <div class="box"></div>
-        <div class="box"></div>
+
 
     </div>
 </body>
