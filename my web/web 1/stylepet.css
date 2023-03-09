@@ -12,6 +12,10 @@
 }
 .jus{
     justify-content: space-between;
+    align-items: center;
+}
+.col25{
+    width: 25%;
 }
 header{
     background-color: #5381c184;
@@ -33,7 +37,8 @@ header{
 }
 .home_sec{
     background-image: url(image/bg\ img.png) ;
-    
+    background-size: cover;
+    /* height: 800px; */
 }
 .sec_one_text{
     color: white;
@@ -64,4 +69,38 @@ margin: 0 auto;
 .sec_two{
     background-color: #739ee3;
     overflow: hidden;
+    /* height: 800px;  */
+}
+.sec_two h2{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    padding: 50px 0 0 0;
+}
+.sec_two p{
+    font-size: 20px;
+    padding: 20px 0;
+    width: 45%;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+}
+.cart{
+    padding: 120px 0;
+}
+.cart img{
+    width: 100%;
+    border-radius: 50%;
+
+}
+.cart h3{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    padding: 20px 0 10px 0;
+}
+.cart p{
+    font-size: 20px;
+    width: 70%;
+    text-align: center;
 }
