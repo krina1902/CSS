@@ -22,8 +22,8 @@ header{
 }
 .link ul li{
     display: inline-block;
-    margin: 0 50px 0 0;
-    font-size: 40px;
+    margin: 0 100px 0 0;
+    font-size: 30px;
 }
 .nav{
     line-height: 100px;
@@ -33,11 +33,12 @@ header{
     text-decoration: none;
 }
 .img img{
+    width: 100%;
     vertical-align: middle;
 }
 .home_sec{
     background-image: url(image/bg\ img.png) ;
-    background-size: cover;
+    background-size: cover; 
     /* height: 800px; */
 }
 .sec_one_text{
@@ -46,14 +47,17 @@ header{
     text-align: center;
 }
 .sec_one_text h1{
-    font-size: 70px;
-    padding: 50px 0 20px 0; 
+    font-size: 90px;
+    font-weight: 700;
+    padding: 100px 0 15px 0;
+    margin: 0 auto; 
 }
+
 .sec_one_text p{
     font-size: 20px;
     width: 45%;
     margin: 0 auto;
-    padding: 0 0 30px 0;
+    padding: 40px 0 60px 0;
     text-align: center;
 }
 .order button{
@@ -65,6 +69,9 @@ color: white;
 font-size: 20px;
 border: none;
 margin: 0 auto;
+}
+.padding{
+    padding: 0 0 110px 0;
 }
 .sec_two{
     background-color: #739ee3;
@@ -103,4 +110,47 @@ margin: 0 auto;
     font-size: 20px;
     width: 70%;
     text-align: center;
+}
+.sec_three h2{
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    padding: 100px 0 20px 0;
+}
+.sec_three p{
+    font-size: 25px;
+    padding: 30px 0 90px 0;
+    width: 55%;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+}
+.sec_three{
+    background-image: url(image/bg3.png);
+    background-size: cover; 
+}
+.sec_three_text{
+    padding: 80px 0;
+    margin: 0 auto;
+}
+.col30{
+    width: 262px;
+height: 262px;
+border-radius: 131px;
+border: 10px solid #ffffff;
+text-align: center;
+padding: 70px 0 0 0;
+}
+
+.col30 h4{
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+}
+.col30 p{
+    font-size: 20px;
+}
+.padding1{
+    padding: 0 0 150px 0;
+    margin: 100px 0;
 }
