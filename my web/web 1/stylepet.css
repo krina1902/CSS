@@ -215,3 +215,44 @@ color: white;
 font-size: 20px;
 border: none;
 }
+.sec_six{
+    background-color: #5380c1;
+}
+.sec_six_text h2{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    padding: 50px 0 0 0;
+}
+.sec_six_text p{
+    font-size: 25px;
+    padding: 30px 0;
+    width: 60%;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+}
+.cart6{
+width: 30%;
+border-radius: 8px;
+background-color: #ffffff;
+padding: 0 0 30px 0;
+margin: 100px 0 150px 0;
+}
+.cart6 h5{
+    font-size: 30px;
+    color: #739ee3;
+    text-align: center;
+    padding: 30px 0;
+}
+.cart6 img{
+    display: block;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.cart6 p{
+    font-size: 25px;
+    color: #739ee3;
+    text-align: center;
+    padding: 0 0 30px 0;
+}
