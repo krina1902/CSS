@@ -162,12 +162,12 @@ padding: 70px 0 0 0;
 .col50{
     width: 50%;
 }
-.col50 h4{
+.sec_four_text h4{
     color: white;
     font-size: 60px;
     padding: 0 0 30px 0;
 }
-.col50 p{
+.sec_four_text p{
     color: white;
     font-size: 30px;
     padding: 10px 40px 30px 0;
@@ -178,6 +178,36 @@ padding: 70px 0 0 0;
     padding: 150px 0 150px 50px;
 }
 .order4 button{
+border-radius: 32px;
+background-color: #edc315;
+padding: 20px 100px;
+color: white;
+font-size: 20px;
+border: none;
+}
+.sec_five{
+    background-color: #739ee3;
+    padding: 80px 0;
+}
+.sec_five_text h4{
+    color: white;
+    font-size: 60px;
+    padding: 0 0 30px 0;
+}
+.sec_five_text p{
+    color: white;
+    font-size: 30px;
+    padding: 10px 0 40px 0px;
+}
+.col504{
+    width: 50%;
+}
+.col504 img{
+    width: 100%;
+    border-radius: 50%;
+    padding: 150px 70px 150px 0;
+}
+.order5 button{
 border-radius: 32px;
 background-color: #edc315;
 padding: 20px 100px;
