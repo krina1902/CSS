@@ -256,3 +256,38 @@ margin: 100px 0 150px 0;
     text-align: center;
     padding: 0 0 30px 0;
 }
+.sec_seven{
+    background-color: #739ee3
+}
+.sec_seven_text h2{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    padding: 90px 0 0 0;
+}
+.sec_seven_text p{
+    font-size: 20px;
+    padding: 40px 0 100px 0;
+    width: 45%;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+}
+.col507{
+    width: 42%;
+    display: grid;
+    grid-template-columns: 150px 450px;
+}
+.col507 h4{
+      font-size: 40px;
+      color: white;
+      padding: 0 0 10px 0;
+}
+.col507 p{
+    font-size: 25px;
+    color: white;
+    padding: 0 0 100px 0;
+}
+.padding2{
+    padding: 0 0 150px 0;
+}
