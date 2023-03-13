@@ -291,3 +291,23 @@ margin: 100px 0 150px 0;
 .padding2{
     padding: 0 0 150px 0;
 }
+.sec_eight{
+    background-image: url(image/lastimg.png);
+    background-size: cover;
+    padding: 150px  0 100px 0;
+}
+.sec_eight_text p{
+    font-size: 70px;
+    width: 90%;
+    text-align: center;
+    color: white;
+    margin: 150px  80px 70px 80px;
+    padding: 150px 30px 0 60px;
+}
+.sec_eight_text h5{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding: 0 0 150px 0;
+    font-weight: 800;
+}
