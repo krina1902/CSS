@@ -183,7 +183,19 @@ padding: 70px 0 0 0;
 }
 .sec_four{
     background-color: #5380c1;
-    padding: 80px 0;
+    padding: 80px 0 0px 0;
+}
+.right3tri{
+    top: 140px;
+    left: 100px;
+}
+.leftdot{
+    top: 150px;
+    right: 110px;
+}
+.rightdot{
+    bottom: 40px;
+    left: 100px ;
 }
 .col50{
     width: 50%;
@@ -213,7 +225,27 @@ border: none;
 }
 .sec_five{
     background-color: #739ee3;
-    padding: 80px 0;
+    padding: 130px 0 100px 0;
+}
+.ri51{
+    top: 10px;
+    right: 100px;
+}
+.rido5{
+    top: 250px;
+    right: 70px;
+}
+.le51{
+    top: 190px;
+    left: 140px;
+}
+.ledo5{
+    left: 140px;
+    bottom: 30px;
+}
+.ri52{
+    bottom:180px ;
+    right: 280px;
 }
 .sec_five_text h4{
     color: white;
@@ -283,7 +315,20 @@ margin: 100px 0 150px 0;
     padding: 0 0 30px 0;
 }
 .sec_seven{
-    background-color: #739ee3
+    background-color: #739ee3;
+    overflow: hidden;
+}
+.rido7{
+    top: 190px;
+    right: -10px;
+}
+.ride7{
+    bottom: -170px;
+    right: -220px;
+}
+.ledo7{
+    bottom: 50px;
+    left: -10px;
 }
 .sec_seven_text h2{
     font-size: 60px;
@@ -292,9 +337,9 @@ margin: 100px 0 150px 0;
     padding: 90px 0 0 0;
 }
 .sec_seven_text p{
-    font-size: 20px;
+    font-size: 25px;
     padding: 40px 0 100px 0;
-    width: 45%;
+    width: 55%;
     margin: 0 auto;
     color: white;
     text-align: center;
