@@ -7,6 +7,32 @@
     width: 1400px;
     margin: 0 auto;
 }
+.po-rel{
+    position: relative;
+}
+.po-ab{
+    position: absolute;
+}
+.left-de{
+    top: -110px;
+    left: -140px;
+}
+.left-tri{
+     top: 80px;
+     left: 90px;
+}
+.right-de{
+    top: -120px;
+    right: -160px;
+}
+.right-do{
+    top: 100px;
+    right: 160px;
+}
+.right-tri{
+    bottom: 5px;
+    right: 140px;
+}
 .row{
     display: flex;
 }
@@ -43,7 +69,7 @@ header{
 }
 .sec_one_text{
     color: white;
-    padding: 150px 0;
+    padding: 140px 0;
     text-align: center;
 }
 .sec_one_text h1{
@@ -79,15 +105,15 @@ margin: 0 auto;
     /* height: 800px;  */
 }
 .sec_two h2{
-    font-size: 60px;
+    font-size: 80px;
     color: white;
     text-align: center;
     padding: 50px 0 0 0;
 }
 .sec_two p{
-    font-size: 20px;
-    padding: 20px 0;
-    width: 45%;
+    font-size: 25px;
+    padding: 20px 0 0 0;
+    width: 58%;
     margin: 0 auto;
     color: white;
     text-align: center;
