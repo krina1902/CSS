@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            border: 1px solid;
+        }
+        .container{
+            width: 100%;
+            margin: 0 auto;
+        }
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+        .col{
+            flex-grow: 1;
+        }
+        .col25{
+            width: 100%;
+        }
+        .col50{
+            width: 100%;
+        }
+        @media (min-width:576px){
+            .container{
+                width: 100%;
+            }
+        }
+        @media (min-width:768px){
+            .container{
+                width: 720px;
+            }
+            .col25{
+                width: 50%;
+            }
+            .col50{
+                width: 100%;
+            }
+        }
+        @media (min-width:992px){
+            .container{
+                width: 960px;
+            }
+            .col25{
+                width: 33%;
+            }
+            .ml{
+                margin: 0 auto;
+            }
+            .col50{
+                width:50%;
+            }
+        }
+        @media (min-width:1200px){
+            .container{
+                width: 1140px;
+            }
+            .col25{
+                width: 25%;
+            }
+            .col50{
+                width: 50%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li> xs = Extra small < 576px</li>
+        <li> Max container width None (auto)</li>
+
+        <li> sm = Small ≥576px</li>
+        <li> Max container width 540px</li>
+
+        <li> md = Medium ≥768px</li>
+        <li> Max container width 720px</li>
+
+        <li> lg = Large ≥992px</li>
+        <li> Max container width 960px</li>
+
+        <li> xl = Extra large ≥1200px</li>
+        <li> Max container width 1140px</li>
+
+        <li> xxl = Extra large ≥1400px</li>
+        <li> Max container width 1320px</li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, nulla? Iste, blanditiis omnis. Non asperiores rem
+        ab eos quidem numquam ipsam voluptas tempore quia temporibus, placeat, blanditiis, unde nobis maiores. Lorem
+        ipsum dolor, sit amet consectetur adipisicing elit. Eius veniam perferendis maiores sequi quis aliquam, ad
+        corporis adipisci libero autem, natus ut? At a qui atque nihil consequatur, cupiditate praesentium.</p>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">test col</div>
+            <div class="col">test col</div>
+            <div class="col">test col</div>
+            <div class="col">test col</div>
+            <div class="col">test col</div>
+            <div class="col">test col</div>
+        </div>
+        <div class="row">
+            <div class="col25">col25</div>
+            <div class="col25">col25</div>
+            <div class="col25">col25</div>
+            <div class="col25 ml">col25</div>
+        </div>
+        <div class="row">
+            <div class="col50">col50</div>
+            <div class="col50">col50</div>
+        </div>
+    </div>
+    </body>
+</html>
