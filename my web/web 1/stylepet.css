@@ -36,6 +36,9 @@
 .row{
     display: flex;
 }
+.jcs{
+    justify-content: space-between;
+}
 .jus{
     justify-content: space-between;
     align-items: center;
@@ -381,4 +384,36 @@ margin: 0 0 110px 0;
     text-align: center;
     padding: 0 0 150px 0;
     font-weight: 800;
+}
+.sec_nine{
+    background-color: #343434;
+    padding: 50px 0;
+}
+.col45{
+    width: 45%;
+}
+.col15{
+    width: 15%;
+    padding: 0 0 0 40px;
+}
+.col45 h5{
+    color: #ffffff;
+    font-size: 33px;
+    padding: 0 0 30px 0;
+}
+.col45 p{
+    font-size: 25px;
+    color: #ffffff;
+    padding: 0 0 30px 0;
+    width: 70%;
+}
+.col15 h6{
+    font-size: 33px;
+    color: #ffffff;
+    padding: 0 0 20px 0;
+}
+.col15 ul li{
+    font-size: 24px;
+    color: #ffffff;
+    line-height: 45px;
 }
