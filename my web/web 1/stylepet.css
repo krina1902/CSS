@@ -33,6 +33,9 @@
     bottom: 5px;
     right: 140px;
 }
+.p{
+    left: 370px;
+}
 .row{
     display: flex;
 }
@@ -111,18 +114,21 @@ margin: 0 auto;
     font-size: 80px;
     color: white;
     text-align: center;
-    padding: 50px 0 0 0;
+    padding: 50px 0 20px 0;
 }
 .sec_two p{
     font-size: 25px;
-    padding: 20px 0 0 0;
-    width: 58%;
+    padding: 20px 0 80px 0;
+    width: 55%;
     margin: 0 auto;
     color: white;
     text-align: center;
 }
+.img3{
+    right: 30px;
+}
 .cart{
-    padding: 120px 0;
+    padding: 140px 0;
 }
 .cart img{
     width: 100%;
