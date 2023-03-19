@@ -622,4 +622,32 @@ vertical-align: middle;
     .col40{
         width: 40%;
     }
+    .col45{
+        width: 45%;
+    }
+    .col15{
+        width: 15%;
+    }
+    .sub{
+        padding: 50px 0 90px 0;
+    }
+    .sub input{
+        width: 500px;
+        padding: 15px 0 15px 15px;
+        font-weight: 400;
+        font-family: "Lato";
+        margin: 0 -30px 0 0;
+    
+    } 
+    .sub button{
+        padding: 10px 60px;
+        font-size: 20px;
+    }
+    .about p{
+        width: 70%;
+        font-size: 20px;
+    }
+    .about h6{
+        font-size: 30px;
+    }
 }

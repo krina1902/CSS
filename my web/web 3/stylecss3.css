@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+}
+.jus{
+    justify-content: space-between;
+}
+.po-rel{
+    position: relative;
+}
+.po-ab{
+    position: absolute;
+}
+.sec_one{
+    background-image: url(image3/bg1.png);
+    background-size: cover;
+    height: 800px;
+}
+.head ul li{
+    display: inline-block;
+    font-size: 20px;
+letter-spacing: 3px;
+text-transform: uppercase;
+font-weight: 700;
+font-family: "Open Sans";
+}
+.head ul li a{
+    color: #54524f;
+    text-decoration: none;
+    margin: 0 20px ;
+}
+.head ul li button{
+    width: 183px;
+height: 51px;
+border-radius: 25px;
+background-color: #7f7770;
+}
+.head ul li button i{
+    font-size: 20px;
+    text-align: right;
+} 
+.sec_one_text h1{
+    font-size: 92px;
+color: #deb37e;
+font-weight: 800;
+font-family: "Open Sans";
+filter: drop-shadow(2.575px -4.286px 2.5px rgba(84,82,79,0.22));
+width: 50%;
+padding: 40px 0 10px 0;
+}
+.sec_one_text h2{
+    font-size: 25px;
+letter-spacing: 5px;
+color: #54524f;
+font-weight: 700;
+font-style: italic;
+font-family: "Open Sans";
+padding: 10px 0 20px 0;
+}
+.sec_one_text button{
+    border-radius: 21px;
+background-color: #ffffff;
+font-size: 15px;
+padding: 10px 20px;
+border: none;
+color: #776c64;
+font-weight: 800;
+font-family: "Open Sans";
+text-align: center;
+}
+.sec_one_text p{
+    font-size: 21px;
+letter-spacing: 1px;
+color: #54524f;
+font-weight: 400;
+font-style: italic;
+font-family: "Open Sans";
+    padding: 20px 0;
+    width: 30%;
+}
