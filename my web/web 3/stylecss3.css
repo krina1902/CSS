@@ -45,7 +45,7 @@ background-color: #7f7770;
 }
 .head ul li button i{
     font-size: 20px;
-    text-align: right;
+    margin: 0  -130px 0 0;
 } 
 .sec_one_text h1{
     font-size: 92px;
@@ -202,3 +202,54 @@ padding: 20px 30px;
     width: 600px;
     margin: 0 auto;
 }
+.sec_five{
+    background-color: #7f7770e3;
+    padding: 120px 0;
+}
+.sec_five_text h4{
+    font-size: 70px;
+color: #ffffff;
+font-weight: 600;
+font-family: "Open Sans";
+text-align: center;
+padding: 120px 0 20px 0;
+}
+.sec_five_text p{
+    font-size: 40px;
+color: #dbdbdb;
+font-weight: 400;
+font-family: "Open Sans";
+text-align: center;
+padding: 20px 0 120px 0;
+}
+.sh5{
+    left: -350px;
+}
+.sec_six{
+    background-image: url(image3/bg6.png);
+    background-position-x: right;
+height: 900px;
+}
+.sec_six_text h4{
+    font-size: 76px;
+color: #deb37e;
+font-weight: 800;
+font-style: italic;
+font-family: "Open Sans";
+text-align: right;
+filter: drop-shadow(2.575px -4.286px 2.5px rgba(84,82,79,0.36));
+padding: 100px 0 0 0;
+}
+.padding{
+    padding: 100px 0;
+}
+ .sec_six_text h5{
+    font-size: 76px;
+color: #2a2827e3;
+font-weight: 800;
+font-style: italic;
+font-family: "Open Sans";
+text-align: right;
+filter: drop-shadow(2.575px -4.286px 2.5px rgba(84,82,79,0.36));
+padding: 0 0 150px 0;
+} 
