@@ -23,6 +23,11 @@
     background-image: url(image3/bg1.png);
     background-size: cover;
     padding: 30px 0 120px 0;
+    overflow: hidden;
+}
+.bg1s2{
+    bottom: -90px;
+    left: -50px;
 }
 .head ul li{
     display: inline-block;
@@ -90,6 +95,7 @@ font-family: "Open Sans";
 .sec_two{
     background-color: #ffffff;
     padding: 0 0 100px 0;
+    overflow: hidden;
 }
 .sec_two_text h2{
     font-size: 63px;
@@ -157,6 +163,7 @@ text-align: center;
 }
 .sec_three{
     background-color: #7f7770;
+    overflow: hidden;
 }
 .sec_three_text h3{
     font-size: 60px;
@@ -194,6 +201,7 @@ padding: 20px 30px;
 }
 .sec_four{
     background-color: #deb37e;
+    overflow: hidden;
 }
 .sec_three_text{
     padding: 120px 0 100px 0;
@@ -205,6 +213,7 @@ padding: 20px 30px;
 .sec_five{
     background-color: #7f7770e3;
     padding: 120px 0;
+    overflow: hidden;
 }
 .sec_five_text h4{
     font-size: 70px;
@@ -225,10 +234,26 @@ padding: 20px 0 120px 0;
 .sh5{
     left: -350px;
 }
+.bg5s1{
+    top: -20px;
+    left: -20px;
+}
+.bg5s2{
+    bottom: -150px;
+    left: -20px;
+}
 .sec_six{
     background-image: url(image3/bg6.png);
     background-position-x: right;
-height: 900px;
+    overflow: hidden;
+}
+.bg6s1{
+    top: -190px;
+    left: -20px;
+}
+.bg6s2{
+    bottom: -70px;
+    left: -20px;
 }
 .sec_six_text h4{
     font-size: 76px;
@@ -238,10 +263,13 @@ font-style: italic;
 font-family: "Open Sans";
 text-align: right;
 filter: drop-shadow(2.575px -4.286px 2.5px rgba(84,82,79,0.36));
-padding: 100px 0 0 0;
+padding: 150px 0 0 -90px;
 }
 .padding{
-    padding: 100px 0;
+    padding: 150px 0;
+}
+.sec_seven{
+    overflow: hidden;
 }
  .sec_six_text h5{
     font-size: 76px;
@@ -251,13 +279,13 @@ font-style: italic;
 font-family: "Open Sans";
 text-align: right;
 filter: drop-shadow(2.575px -4.286px 2.5px rgba(84,82,79,0.36));
-padding: 0 0 150px 0;
+padding: 0 40px 150px -90px;
 } 
 .sec_seven_text h3{
     font-size: 33px;
 line-height: 33px;
 color: #deb37e;
-padding: 120px 0 30px 0;
+padding: 120px 40px 30px 0;
 }
 .sec_seven_text p{
     font-size: 19px;
@@ -287,6 +315,87 @@ margin: 0 auto;
     top: 400px;
     right: -260px;
 }
-.sec_seven{
-    overflow: hidden;
+.form{
+    justify-content: center;
+}
+.form input{
+    background-color: #ffffff;
+    width: 50%;
+    border-radius: 30px;
+    padding: 10px 0 10px 10px;
+    display: block;
+    border: none;
+    font-size: 20px;
+}
+.form button{
+    border-radius: 32px;
+background-color: #54524f;
+border-radius: 32px;
+color: #ffffff;
+padding: 10px 60px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: none;
+    text-align: center;
+    margin: 0 0 0 -50px;
+}
+.sec_eight{
+    background-image: url(image3/bg8.png);
+    padding: 120px 0;
+}
+.sec_eight_text{
+    padding: 0 0 120px 0;
+}
+.sec_eight_text h4{
+    font-size: 75px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Open Sans";
+text-align: center;
+padding: 120px 0 40px 0;
+}
+.sec_eight_text p{
+    color: #54524f;
+    font-size: 30px;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    padding: 0 0 40px 0;
+}
+.sec_nine{
+    background-image: url(image3/bg9.png);
+}
+.col45{
+    width: 45%;
+}
+.col15{
+    width: 15%;
+}
+.sec_nine{
+    padding:  120px 0;
+
+}
+.fo ul li{
+    font-size: 24px;
+    line-height: 42px;
+    color: #ffffff;
+    font-weight: 400;
+}
+.fo h6{
+    font-size: 32px;
+color: #ffffff;
+font-weight: 400;
+padding: 100px 0 20px 0;
+}
+.fo h5{
+    font-size: 32px;
+color: #ffffff;
+font-weight: 400;
+padding: 100px 0 20px 0;
+}
+.fo p{
+    font-size: 24px;
+color: #ffffff;
+padding: 0 0 20px 0;
+width: 80%;
 }
