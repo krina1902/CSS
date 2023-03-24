@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: coral;
+            height: 600px;
+              display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .circle{
+            border-radius: 50%;
+            width: 300px;
+            height: 300px;
+            border: none;
+            background-color: crimson;
+            text-align: center;
+            font-size: 20px;
+            margin: 0 auto;
+            position: relative;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            transition: 2s all ease-in;
+        }
+        .circle:hover{
+            transform: translate(100px);
+            transform: translateY(100px);
+            transform: scale(2);
+            transform: scaleY(2);
+            transform: scaleX(2);
+            transform: skew(180deg);
+            transform: skewX(60deg);
+            transform: rotate(180deg);
+            transform: rotateX(90deg);
+            transform: matrix(1,2,3,4,5,6);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="circle">Krina</div>
+    </div>
+</body>
+</html>
