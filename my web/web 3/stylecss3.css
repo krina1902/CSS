@@ -339,9 +339,18 @@ padding: 10px 60px;
     text-align: center;
     margin: 0 0 0 -50px;
 }
+.bg8s1{
+    top: -190px;
+    left: -100px;
+}
+.bg8s2{
+    bottom: -150px;
+    left: -100px;
+}
 .sec_eight{
     background-image: url(image3/bg8.png);
     padding: 120px 0;
+    overflow: hidden;
 }
 .sec_eight_text{
     padding: 0 0 120px 0;
@@ -362,6 +371,14 @@ padding: 120px 0 40px 0;
     margin: 0 auto;
     padding: 0 0 40px 0;
 }
+.bg9s1{
+    top: -100px;
+    left: -100px;
+}
+.bg9s2{
+    bottom: -130px;
+    left: -100px;
+}
 .sec_nine{
     background-image: url(image3/bg9.png);
 }
@@ -372,7 +389,8 @@ padding: 120px 0 40px 0;
     width: 15%;
 }
 .sec_nine{
-    padding:  120px 0;
+    padding:  140px 0;
+    overflow: hidden;
 
 }
 .fo ul li{
