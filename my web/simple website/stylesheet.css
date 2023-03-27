@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.po-rel{
+    position: relative;
+}
+.po-ab{
+    position: absolute;
+}
+.logo{
+    top: 30px;
+    left: 740px;
+}
+.l2{
+    right: 100px;
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+}
+.jus{
+    justify-content: space-between;
+}
+.sec_one{
+    background-color: #88b986;
+    height: 900px;
+}
+.head ul li {
+    display: inline-block;
+padding: 100px 0 0 0;
+}
+.head ul li a{
+    text-decoration: none;
+    font-size: 29px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Quicksand";
+text-align: right;
+margin: 0 150px 0 40px;
+}
+.head1 ul li {
+    display: inline-block;
+padding: 100px 0 0 0;
+}
+.head1 ul li a{
+    text-decoration: none;
+    font-size: 29px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Quicksand";
+text-align: left;
+margin: 0 40px 0 150px;
+}
+.col50{
+    width: 50%;
+}
+.img{
+    margin: 100px 0;
+}
+.sec_one_text h1{
+    font-size: 55px;
+line-height: 51px;
+color: #ffffff;
+font-weight: 600;
+font-family: "Raleway";
+margin: 100px 0 0 0;
+}
+.sec_one_text h2{
+    font-size: 31px;
+line-height: 34px;
+color: #ffffff;
+font-weight: 500;
+font-family: "Quicksand";
+}
+.sec_one_text p{
+    font-size: 28px;
+line-height: 32px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Quicksand";
+width: 40%;
+padding: 70px 0 30px 0;
+}
+.sec_one_text button{
+    color: #ffffff;
+font-weight: 700;
+font-family: "Raleway";
+font-size: 30px;
+padding: 10px 20px;
+background-color: #ebeae8;;
+border: none;
+}
