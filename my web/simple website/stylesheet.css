@@ -16,6 +16,10 @@
 .l2{
     right: 100px;
 }
+.bgd1{
+    top: 280px;
+    left: 80px;
+}
 .container{
     width: 1400px;
     margin: 0 auto;
@@ -28,7 +32,6 @@
 }
 .sec_one{
     background-color: #88b986;
-    height: 900px;
 }
 .head ul li {
     display: inline-block;
@@ -62,29 +65,32 @@ margin: 0 40px 0 150px;
 .img{
     margin: 100px 0;
 }
+.sec_one_text{
+    padding: 0 0 0 130px;
+}
 .sec_one_text h1{
-    font-size: 55px;
+    font-size: 65px;
 line-height: 51px;
 color: #ffffff;
 font-weight: 600;
 font-family: "Raleway";
-margin: 100px 0 0 0;
+margin: 120px 0 0 0;
 }
 .sec_one_text h2{
-    font-size: 31px;
+    font-size: 41px;
 line-height: 34px;
 color: #ffffff;
 font-weight: 500;
 font-family: "Quicksand";
 }
 .sec_one_text p{
-    font-size: 28px;
+    font-size: 38px;
 line-height: 32px;
 color: #ffffff;
 font-weight: 400;
 font-family: "Quicksand";
-width: 40%;
-padding: 70px 0 30px 0;
+width: 50%;
+padding: 90px 0 40px 0;
 }
 .sec_one_text button{
     color: #ffffff;
@@ -92,6 +98,22 @@ font-weight: 700;
 font-family: "Raleway";
 font-size: 30px;
 padding: 10px 20px;
-background-color: #ebeae8;;
+background-color: #ebeae84c;;
 border: none;
 }
+.sec_one_text h3{
+    font-size: 25px;
+line-height: 32px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Quicksand";
+padding: 120px 0 0 0 ;
+}
+.sec_one_text h4{
+    font-size: 20px;
+line-height: 32px;
+color: #ffffff;
+font-family: "Quicksand";
+padding: 0 0 90px 0 ;
+}
+
