@@ -116,4 +116,37 @@ color: #ffffff;
 font-family: "Quicksand";
 padding: 0 0 90px 0 ;
 }
-
+.sec_two{
+    background-color: #bad2bb;
+}
+.sec_two_text h1{
+    font-size: 58px;
+line-height: 74px;
+color: #88b98e;
+font-weight: 700;
+font-family: "Raleway";
+padding: 120px 0 40px 0;
+}
+.sec_two_text p{
+font-size: 29px;
+line-height: 40px;
+color: #525252;
+font-weight: 600;
+font-family: "Raleway";
+width: 65%;
+padding: 0 0 70px 0;
+}
+.sec_two_text button{
+font-size: 33px;
+line-height: 42px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Quicksand";
+padding: 10px 20px;
+background-color: #88b98e;
+border: none;
+}
+.bg2d2{
+    top: -90px ;
+    right: 70px;
+}
